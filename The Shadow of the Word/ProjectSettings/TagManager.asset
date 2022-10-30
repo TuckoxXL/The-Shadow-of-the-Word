@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Boss Enemy
   - sword
+  - Key
+  - Padlock
   layers:
   - Default
   - TransparentFX

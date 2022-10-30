@@ -6,7 +6,7 @@ public class Blow : MonoBehaviour
 {
     [SerializeField]
 
-    public int daño;
+    public int daño; 
 
     private void OnTriggerEnter(Collider other)
     {
