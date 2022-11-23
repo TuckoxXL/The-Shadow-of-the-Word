@@ -62,15 +62,4 @@ public class Enemy : MonoBehaviour
     {
         comportamiento_enemigo();
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("sword"))
-        {
-           
-            Destroy(collision.gameObject);
-            Destroy(this.gameObject);
-
-        }
-    }
 }

@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scrips/Attack.cs"
 "Assets/Scrips/Blow.cs"
+"Assets/Scrips/Clowns.cs"
 "Assets/Scrips/Door.cs"
 "Assets/Scrips/Enemy.cs"
 "Assets/Scrips/FPS.cs"
