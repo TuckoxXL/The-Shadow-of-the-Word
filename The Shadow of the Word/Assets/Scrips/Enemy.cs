@@ -9,6 +9,9 @@ public class Enemy : MonoBehaviour
     public float cronometro;
     public Quaternion angulo;
     public float grado;
+    public int health;
+    public Animator clowanimator;
+
 
     public GameObject target;
 

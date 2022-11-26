@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Player : MonoBehaviour
     public float forcemultiplier;
     public float jumforce;
     public bool canjump;
+    public int vida = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +47,16 @@ public class Player : MonoBehaviour
         {
             canjump = true;
         }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("Derrota");
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
+        }
+
     }
-
-
 }
+
+
+
